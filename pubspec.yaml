@@ -74,10 +74,15 @@ flutter:
 
     - assets/icons/logo.png
     - assets/auth/login.png
-    - assets/icons/logo_splash.png
     - assets/icons/home.png
     - assets/icons/search.png
     - assets/icons/book.png
+    - assets/destaques/destaque_0.png
+    - assets/destaques/destaque_1.png
+    - assets/destaques/destaque_2.png
+    - assets/destaques/destaque_3.png
+    - assets/destaques/destaque_4.png
+    - assets/destaques/destaque_5.png
 
 
   #   - images/a_dot_burr.jpeg
