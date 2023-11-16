@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone/module/auth/create_account.dart';
+import 'package:spotify_clone/module/main/view/main_page.dart';
 
 import '../../widgets/dados.dart';
 
@@ -12,9 +13,6 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-
-  get email => null;
-  get senha => null;
 
 
   @override
@@ -46,19 +44,16 @@ class _LoginPageState extends State<LoginPage> {
                       padding: const EdgeInsets.symmetric(horizontal: 30),
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Color(0xff1ED760),
+                          backgroundColor: const Color(0xff1ED760),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
                         onPressed: () {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text("Login!",
-                                  textAlign: TextAlign.center),
-                              backgroundColor: Colors.green,
-                            ),
-                          );
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const MainPage()));
                         },
                         child: const Text(
                             "Acessar",

@@ -75,6 +75,9 @@ flutter:
     - assets/icons/logo.png
     - assets/auth/login.png
     - assets/icons/logo_splash.png
+    - assets/icons/home.png
+    - assets/icons/search.png
+    - assets/icons/book.png
 
 
   #   - images/a_dot_burr.jpeg

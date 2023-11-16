@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone/module/auth/login.dart';
-import 'package:spotify_clone/pages/home.dart';
 import 'package:spotify_clone/pages/splash_screen.dart';
 
 

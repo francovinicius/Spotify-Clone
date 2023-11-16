@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_clone/module/auth/login.dart';
-
 import '../../widgets/dados.dart';
+import '../main/view/main_page.dart';
 
 class CreateAccountPage extends StatefulWidget {
   const CreateAccountPage({super.key});
@@ -40,7 +39,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                       padding: const EdgeInsets.symmetric(horizontal: 30),
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: Color(0xff1ED760),
+                          backgroundColor: const Color(0xff1ED760),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
                           ),
@@ -57,7 +56,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const LoginPage()));
+                                builder: (context) => const MainPage()));
                       },
                       child: const Text(
                         "Já possui conta? Faça o Login.",
