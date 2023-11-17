@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import '../../../widgets/destaques.dart';
+import '../../../widgets/horizontal_list_view.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -16,28 +16,32 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: const Color(0xff121212),
       body: Container(
         margin: const EdgeInsets.symmetric(horizontal: 5),
-        child: const Column(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
-            Text(
+            const Text(
               "Bom dia",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 30,
                   fontWeight: FontWeight.bold),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
-            Destaques()
+            const Destaques(),
+            const SizedBox(
+              height: 50,
+            ),
+            HorizontalListView(),
+
           ],
         ),
       ),
     );
   }
 }
-
 
