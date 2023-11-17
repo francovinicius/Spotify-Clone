@@ -107,4 +107,47 @@ class MusicaColumnRepository {
       title: 'play 8',
     ),
   ];
+  static List<MusicaColumn> library = [
+    MusicaColumn(
+      image: 'assets/library/favs.png',
+      title: 'Favoritas \nPlaylist - 5 músicas',
+    ),
+    MusicaColumn(
+      image: 'assets/library/alert.png',
+      title: 'Novos Epsódios \nAtualizado ontem',
+    ),
+    MusicaColumn(
+      image: 'assets/library/library_0.png',
+      title: 'library 1 \nPlaylist - Spotify',
+    ),
+    MusicaColumn(
+      image: 'assets/library/library_1.png',
+      title: 'library 2 \nPlaylist - Pablo',
+    ),
+    MusicaColumn(
+      image: 'assets/library/library_2.png',
+      title: 'library 3 \nPlaylist - João',
+    ),
+    MusicaColumn(
+      image: 'assets/library/library_3.png',
+      title: 'library 4 \nPlaylist - Spotify',
+    ),
+    MusicaColumn(
+      image: 'assets/library/library_0.png',
+      title: 'library 6 \nPlaylist - Spotify',
+    ),
+    MusicaColumn(
+      image: 'assets/library/library_1.png',
+      title: 'library 7 \nPlaylist - 5 músicas',
+    ),
+    MusicaColumn(
+      image: 'assets/library/library_2.png',
+      title: 'library 8 \nPlaylist - Spotify',
+    ),
+    MusicaColumn(
+      image: 'assets/library/library_3.png',
+      title: 'library 9 \nPlaylist - Spotify',
+    ),
+
+  ];
 }
