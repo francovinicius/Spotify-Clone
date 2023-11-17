@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_clone/module/main/services/lista_musicas.dart';
 import '../../../widgets/library_horizontal_list_view.dart';
 import '../../../widgets/library_vertical_list_view.dart';
 
