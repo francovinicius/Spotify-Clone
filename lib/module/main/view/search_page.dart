@@ -38,6 +38,7 @@ class _SearchPageState extends State<SearchPage> {
                 Text("Navegar por todas as seções", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
                 SizedBox(height: 20,),
                 CardsBuscarFinished(),
+                const SizedBox(height: 90,)
               ],
             ),
           ),

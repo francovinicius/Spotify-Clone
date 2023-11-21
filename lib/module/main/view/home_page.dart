@@ -45,6 +45,7 @@ class _HomePageState extends State<HomePage> {
                 PodcastHorizontalListView(),
                 const SizedBox(height: 20,),
                 PlayHorizontalListView(),
+                const SizedBox(height: 90,)
 
 
 

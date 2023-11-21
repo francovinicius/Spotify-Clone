@@ -22,11 +22,11 @@ class LibraryVerticalListView extends StatelessWidget {
                 children: [
                   Image.asset(
                     MusicaColumnRepository.library[index].image,
-                    width: 100,
-                    height: 100,
+                    width: 80,
+                    height: 80,
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(12.0),
                     child: Text(
                       MusicaColumnRepository.library[index].title,
                       style: const TextStyle(fontSize: 20, color: Colors.white,),

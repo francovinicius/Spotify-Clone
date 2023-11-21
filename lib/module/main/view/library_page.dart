@@ -26,6 +26,7 @@ class _LibraryPageState extends State<LibraryPage> {
             const SizedBox(height: 30,),
             LibraryHorizontalListView(),
             const LibraryVerticalListView(),
+            const SizedBox(height: 90,)
 
           ],
         ),
